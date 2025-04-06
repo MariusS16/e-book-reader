@@ -136,6 +136,9 @@ Tabelul de mai jos prezintă componentele folosite în proiect:
 **Notă**: Pinii sunt alocați conform specificațiilor ESP32-C6 și necesităților proiectului OpenBook. Mulți dintre ei pot îndeplini funcții multiple și pot fi configurați flexibil în funcție de aplicație.
 
 
+**Notă**: Am avut o problema cu Fusion si mi-a dat crash aplicatia si am capatat o eroare de care nu am stiut sa scap si nu am mai putu contiuna modelul 3D, insa am facut partial din ea.
+
+
 
 
 ![image](https://github.com/user-attachments/assets/2fb863e2-7691-4fdc-9b05-09f4df22e068)
