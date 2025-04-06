@@ -142,4 +142,7 @@ Tabelul de mai jos prezintă componentele folosite în proiect:
 
 ![image](https://github.com/user-attachments/assets/02538dc1-fcc4-4fca-95cf-4bd374a13944)
 
+
+![image](https://github.com/user-attachments/assets/5717cfb0-a274-4139-861b-acee66795056)
+
 ---
