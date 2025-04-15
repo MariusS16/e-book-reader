@@ -94,21 +94,37 @@ OpenBook este un e-reader open-source bazat pe microcontrollerul ESP32-C6. Dispo
 # Lista de Componente (BOM)
 
 Tabelul de mai jos prezintă componentele folosite în proiect:
+| Component | Buy | Datasheet |
+| ---------- | --------- | --------- |
+| PFMF.050.1 | [Retailer](https://ro.mouser.com/ProductDetail/Schurter/PFMF.050.2?qs=1auRipcfynCums5v1iucSA%3D%3D) |  [Datasheet](https://ro.mouser.com/datasheet/2/358/typ_PFMF-1275918.pdf) |
+| USB4110-GF-A | [Retailer](https://ro.mouser.com/ProductDetail/GCT/USB4110-GF-A?qs=KUoIvG%2F9IlYiZvIXQjyJeA%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/837/GCT_USB4110_Product_Drawing___20k_cycles-3455479.pdf) |
+| USBLC6-2SC6Y | [Retailer](https://ro.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2SC6Y?qs=gNDSiZmRJS%2FOgDexvXkdow%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/389/usblc6_2sc6y-1852505.pdf) |
+| SD0805S020S1R0 | [Retailer](https://ro.mouser.com/ProductDetail/KYOCERA-AVX/SD0805S020S1R0?qs=jCA%252BPfw4LHbpkAoSnwrdjw%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/40/schottky-3165252.pdf) |
+| DMG2305UX-7 | [Retailer](https://ro.mouser.com/ProductDetail/Diodes-Incorporated/DMG2305UX-7?qs=L1DZKBg7t5F%2FNBHrjfxC%252Bg%3D%3D) | [Datasheet](https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf) |
+| XC6220A331MR-G | [Retailer](https://ro.mouser.com/ProductDetail/Torex-Semiconductor/XC6220A331MR-G?qs=AsjdqWjXhJ8ZSWznL1J0gg%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/760/xc6220-3371556.pdf) |
+| Condensator 100 uF TANT | [Retailer](https://ro.mouser.com/ProductDetail/KYOCERA-AVX/TAJW107M010RNJ?qs=Wtp%252Bf%2FAeVqIH8v1VxV%252B1Rg%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/40/TAJ-3165264.pdf) |
+| 112A-TAAR-R03_ATTEND | [Retailer](https://www.digikey.ro/en/products/detail/attend-technology/112A-TAAR-R03/17633923) | [Datasheet](https://www.attend.com.tw/data/download/file/112A-TAAR-R03_Spec.pdf)
+| ESP32-C6-WROOM-1-N8 | [Retailer](https://ro.mouser.com/ProductDetail/Espressif-Systems/ESP32-C6-WROOM-1-N8?qs=8Wlm6%252BaMh8ST02Gmwp74cw%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/891/Espressif_ESP32_C6_WROOM_1__Datasheet_V0_1_PRELIMI-3239987.pdf) |
+| MCP73831 | [Retailer](https://ro.mouser.com/ProductDetail/Microchip-Technology/MCP73831T-2ACI-OT?qs=yUQqVecv4qvbBQBGbHx0Mw%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/268/MCP73831_Family_Data_Sheet_DS20001984H-3441711.pdf) |
+| CHG_LED | [Retailer](https://store.comet.srl.ro/Catalogue/Product/40478/) | [Datasheet](https://www.snapeda.com/parts/KP-1608SURCK/Kingbright/datasheet/) |
+| SI1308EDL-T1-GE3 | [Retailer](https://ro.mouser.com/ProductDetail/Vishay-Semiconductors/SI1308EDL-T1-GE3?qs=bX1%252BNvsK%2FBramh9tgpOaEw%3D%3D) | [Datasheet](https://www.vishay.com/doc?63399) |
+| MBR0530 | [Retailer](https://ro.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/MBR0530-T?qs=9VyI4qLX4NTSXkb9ynzJnA%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/258/mcc_mbr0520~mbr0560sod123-1179695.pdf) |
+| L1 | [Retailer](https://ro.mouser.com/ProductDetail/Wurth-Elektronik/744043680?qs=PGXP4M47uW6VkZq%252BkzjrHA%3D%3D) | [Datasheet](https://www.we-online.com/components/products/datasheet/744043680.pdf) |
+| FH34SRJ-24S-0.5SH_99_ | [Retailer](https://ro.mouser.com/ProductDetail/Hirose-Connector/FH34SRJ-24S-0.5SH99?qs=vcbW%252B4%252BSTIpKBl5ap9J8Fw%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/185/FH34SRJ_24S_0_5SH_99__CL0580_1255_6_99_2DDrawing_0-1615044.pdf) |
+| BME688 | [Retailer](https://ro.mouser.com/ProductDetail/Bosch-Sensortec/BME688?qs=IS%252B4QmGtzzqQoVDscqwx3A%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/783/bst_bme688_fl000-2307034.pdf) |
+| BD5229G-TR | [Retailer](https://ro.mouser.com/ProductDetail/ROHM-Semiconductor/BD5229G-TR?qs=4kLU8WoGk0vvnhrrYwdszw%3D%3D) | [Datasheet](https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bd52xxg-e.pdf) |
+| Button | [Retailer](https://ro.mouser.com/ProductDetail/CK/KMR221GULCLFS?qs=u2NJ%252B70r0goBXaNk7IrU0Q%3D%3D) | [Datasheet](https://www.ckswitches.com/media/1479/kmr2.pdf) |
+| MAX17048G+T10 | [Retailer](https://ro.mouser.com/ProductDetail/Analog-Devices-Maxim-Integrated/MAX17048G%2bT10?qs=D7PJwyCwLAoGnnn8jEPRBQ%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/609/MAX17048_MAX17049-3469099.pdf) |
+| W25Q512JVEIQ | [Retailer](https://ro.mouser.com/ProductDetail/Winbond/W25Q512JVEIQ?qs=l7cgNqFNU1jw6svr3at6tA%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/949/Winbond_W25Q512JV_Datasheet-3240039.pdf) |
+| PGB1010603MR | [Retailer](https://ro.mouser.com/ProductDetail/Littelfuse/PGB1010603MRHF?qs=KvZd0dN2Zg%2FuIq6icj%252BGKA%3D%3D) | [Datasheet](https://www.littelfuse.com/media?resourcetype=datasheets&itemid=8a337998-d54d-466b-be4e-dc5bcd1f9321&filename=littelfuse_pulseguard_pgb1_datasheet.pdf) |
+| QWIIC_RIGHT_ANGLE | [Retailer](https://ro.mouser.com/ProductDetail/GCT/USB4110-GF-A?qs=KUoIvG%2F9IlYiZvIXQjyJeA%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/837/GCT_USB4110_Product_Drawing___20k_cycles-3455479.pdf) |
+| DS3231SN# | [Retailer](https://ro.mouser.com/ProductDetail/Analog-Devices-Maxim-Integrated/DS3231SN?qs=ffX8NcjNb2RmKAb9wAk9Ug%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/609/DS3231-3421123.pdf) |
+| CPH3225A C10_SUPERCAP | [Retailer](https://ro.mouser.com/ProductDetail/Seiko-Semiconductors/CPH3225A?qs=3etwrb1wR%252BhUOph6lAO7eg%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/360/Seiko_Instruments_MicroBattery_E_20230330_2024Jan_-3561061.pdf) |
+| Condensator 100nF | [Retailer](https://ro.mouser.com/ProductDetail/KYOCERA-AVX/06033G104ZAT2A?qs=NXubJDmysXJMPmHfVo6Z%252BA%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/40/KGM_Y5V-3223189.pdf) |
+| Condensator 4.7uF | [Retailer](https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD475MAT2A?qs=NBFAU1oqP4W4U2PCPHI0sg%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/40/cx5r_KGM-3223198.pdf) |
+| Condensator 10uF | [Retailer](https://ro.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A106KQ8NNNL?qs=xZ%2FP%252Ba9zWqaes9JKSsob2Q%3D%3D) | [Datasheet](https://ro.mouser.com/datasheet/2/585/MLCC-1837944.pdf) |
 
-| **Referință**        | **Part Number**               | **Descriere**                                      | **Furnizor (Mouser)**                                                                 | **Datasheet**                                                                                     |
-|----------------------|-------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| U2                   | ESP32-C6-WROOM-1-N8           | MCU cu Wi-Fi 6 și Bluetooth 5                      | [Mouser](https://eu.mouser.com/ProductDetail/Espressif-Systems/ESP32-C6-WROOM-1-N8)   | [Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_datasheet_en.pdf) |
-| U1                   | W25Q512JVEIQ                  | Memorie Flash SPI 512Mb                           | [Mouser](https://eu.mouser.com/ProductDetail/Winbond/W25Q512JVEIQ)                     | [Datasheet](https://www.winbond.com/resource-files/W25Q512JV%20RevD%2004082020.pdf)              |
-| SENSOR2              | BME680                        | Senzor temperatură, umiditate, presiune, gaz      | [Mouser](https://eu.mouser.com/ProductDetail/Bosch-Sensortec/BME680)                   | [Datasheet](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme680-ds001.pdf) |
-| U8                   | DS3231SN                      | Ceas de timp real cu interfață I2C                | [Mouser](https://eu.mouser.com/ProductDetail/Maxim-Integrated/DS3231SN)                | [Datasheet](https://datasheets.maximintegrated.com/en/ds/DS3231.pdf)                            |
-| JJ4                  | MAX17048G+T10                 | Monitor baterie cu interfață I2C (Fuel Gauge)     | [Mouser](https://eu.mouser.com/ProductDetail/Maxim-Integrated/MAX17048G-T10)           | [Datasheet](https://datasheets.maximintegrated.com/en/ds/MAX17048-MAX17049.pdf)                 |
-| U3                   | MCP73831T-2ACI/OT             | Controler de încărcare baterie Li-Po              | [Mouser](https://eu.mouser.com/ProductDetail/Microchip-Technology/MCP73831T-2ACI-OT)   | [Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf)                     |
-| U6                   | BD5230G-TL                    | Voltage Supervisor + Reset                        | [Mouser](https://eu.mouser.com/ProductDetail/Rohm-Semiconductor/BD5230G-TL-E)          | [Datasheet](https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bd52xxg-e.pdf) |
-| U9                   | USBLC6-2SC6Y                  | Protecție ESD pentru port USB-C                   | [Mouser](https://eu.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2SC6Y)          | [Datasheet](https://www.st.com/resource/en/datasheet/usblc6-2sc6.pdf)                           |
-| Q1                   | IRLML6344                     | MOSFET N-Ch pentru comutare EPD                   | [Mouser](https://eu.mouser.com/ProductDetail/Infineon-Technologies/IRLML6344TRPBF)     | [Datasheet](https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a40153566003611b6f) |
-| L1                   | 68uH                          | Inductor pentru circuitul de comandă e-paper      | [Mouser](https://eu.mouser.com/ProductDetail/Coilcraft/LPS4018-680MLC)                 | [Datasheet](https://www.coilcraft.com/getmedia/4b0b7a0a-d84f-48ed-bb2a-1be67f22fb6d/lps4018.pdf)  |
 
----
 ## Configurare Pini ESP32-C6
 
 | **Pin ESP32-C6** | **Funcție**         | **Componentă**         | **Rol**                                    |
